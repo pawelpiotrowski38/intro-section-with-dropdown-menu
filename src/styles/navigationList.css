@@ -1,0 +1,7 @@
+.navigation-list {
+    width: 100%;
+}
+
+.navigation-list > :not(:last-child) {
+    margin-bottom: 1.3125rem;
+}

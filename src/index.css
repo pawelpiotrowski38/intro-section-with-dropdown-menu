@@ -48,4 +48,5 @@ a, a:visited, a:active {
 button {
     border: none;
     background: none;
+    font-family: 'Epilogue', sans-serif;
 }
