@@ -18,10 +18,15 @@ html {
     padding: 0;
 }
 
+#root {
+    width: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     height: 100%;
+    overflow-x: hidden;
     /* min-height: 810px;
     margin: 0;
     padding: 0; */
@@ -29,4 +34,18 @@ body {
     background-color: var(--white);
     font-family: 'Epilogue', sans-serif;
     font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:visited, a:active {
+    color: var(--black);
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
 }

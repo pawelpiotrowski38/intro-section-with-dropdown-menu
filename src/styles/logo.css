@@ -1,0 +1,8 @@
+.logo {
+    margin-left: 0.0625rem;
+    margin-top: 1.5rem;
+}
+
+.logo:hover {
+    background-color: red;
+}
