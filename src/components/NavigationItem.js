@@ -15,7 +15,7 @@ export default function NavigationItem({ item, children }) {
                 {item.icon && (
                     <img
                         className='navigation-item__icon'
-                        src={`/images/${item.icon}`} alt={children}
+                        src={`/images/${item.icon}`} alt={`${children} icon`}
                     />
                 )}
                 {children}
