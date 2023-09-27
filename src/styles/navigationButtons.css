@@ -22,3 +22,22 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media screen and (min-width: 62.5em) {
+    .navigation-buttons {
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 40.9375rem;
+    }
+
+    .navigation-buttons__login {
+        margin-right: 2.5rem;
+        margin-bottom: 0;
+        font-size: 0.875rem;
+        cursor: pointer;
+    }
+
+    .navigation-buttons__register {
+        padding-bottom: 0.625rem;
+    }
+}

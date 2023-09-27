@@ -5,3 +5,22 @@
 .navigation-list > :not(:last-child) {
     margin-bottom: 1.3125rem;
 }
+
+@media screen and (min-width: 62.5em) {
+    .navigation-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: var(--gray);
+        font-size: 0.9375rem;
+    }
+
+    .navigation-list > :not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 2.375rem;
+    }
+
+    /* .navigation-list > :last-child {
+        margin-left: -0.75rem;
+    } */
+}

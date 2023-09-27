@@ -6,3 +6,10 @@
 .logo:hover {
     cursor: pointer;
 }
+
+@media screen and (min-width: 62.5em) {
+    .logo {
+        margin: 0;
+        margin-top: 0.75rem;
+    }
+}

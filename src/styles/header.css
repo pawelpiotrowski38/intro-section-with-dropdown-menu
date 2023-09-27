@@ -26,3 +26,10 @@
     opacity: 1;
     visibility: visible;
 }
+@media screen and (min-width: 62.5em) {
+    .header {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1.25rem 2.5625rem;
+    }
+}

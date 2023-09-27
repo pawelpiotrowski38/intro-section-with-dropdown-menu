@@ -20,3 +20,21 @@
     right: 0;
     visibility: visible;
 }
+
+@media screen and (min-width: 62.5em) {
+    .navigation {
+        position: static;
+        visibility: visible;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        height: auto;
+        width: auto;
+        margin-left: 3.875rem;
+        padding: 0;
+        min-height: auto;
+        color: var(--gray);
+        letter-spacing: -0.5px;
+    }
+}
