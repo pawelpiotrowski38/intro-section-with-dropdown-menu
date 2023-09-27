@@ -65,7 +65,7 @@
 
     .hero-section__info-container {
         align-items: flex-start;
-        padding: 2rem;
+        /* padding: 2rem; */
         text-align: left;
     }
 
@@ -90,9 +90,9 @@
         padding: 0 3rem;
     }
 
-    .hero-section__info-container {
+    /* .hero-section__info-container {
         padding: 2.5rem;
-    }
+    } */
 
     .hero-section__title {
         margin-bottom: 2.5rem;
@@ -131,5 +131,72 @@
 @media screen and (min-width: 70em) {
     .hero-section {
         padding: 0 8rem;
+    }
+}
+
+@media screen and (min-width: 90em) {
+    .hero-section {
+        padding: 1.6875rem 8.125rem 0 8.125rem;
+    }
+
+    .hero-section__info-container {
+        /* margin-right: 1rem; */
+        /* padding-top: 5.0625rem;
+        padding-right: 9rem; */
+        padding: 5.0625rem 8.5rem 0 2.1875rem;
+    }
+
+    .hero-section__title {
+        font-size: 5rem;
+        letter-spacing: -1.2px;
+        line-height: 1.01;
+    }
+
+    .hero-section__paragraph {
+        margin-bottom: 3.1875rem;
+        padding-right: 2.75rem;
+        line-height: 1.55;
+        letter-spacing: 0.07px;
+    }
+
+    .hero-section__button {
+        margin-bottom: auto;
+        padding: 1.125rem 1.75rem 1rem 2rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+        letter-spacing: -0.2px;
+    }
+
+    .hero-section__icons-container {
+        width: 100%;
+    }
+
+    .hero-section__icons-container > :not(:last-child) {
+        margin-right: 2.5rem;
+    }
+
+    .hero-section__icons-container > :last-child {
+        margin-left: -0.0625rem;
+    }
+    
+    .hero-section__icon--db {
+        width: 7.125rem;
+    }
+    .hero-section__icon--ap {
+        width: 4.5625rem;
+    }
+    .hero-section__icon--mt {
+        width: 5.625rem;
+    }
+    .hero-section__icon--mk {
+        width: 5.1875rem;
+    }
+
+    .hero-section__image-container {
+        margin-bottom: 0.125rem;
+    }
+
+    .hero-section__image {
+        width: 30rem;
     }
 }
