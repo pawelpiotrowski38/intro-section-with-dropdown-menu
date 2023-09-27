@@ -43,8 +43,13 @@ li {
 }
 
 a, a:visited, a:active {
-    color: var(--black);
+    color: var(--gray);
+    transition: all 0.25s ease-in-out;
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--black);
 }
 
 button {

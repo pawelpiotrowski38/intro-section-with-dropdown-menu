@@ -32,4 +32,8 @@
         margin-top: 0;
         margin-left: 0.5rem;
     }
+
+    .navigation-item__icon {
+        width: 0.9375rem;
+    }
 }

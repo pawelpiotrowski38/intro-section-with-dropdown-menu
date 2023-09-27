@@ -2,9 +2,9 @@ import NavigationSublist from "./NavigationSublist";
 import '../styles/navigationItem.css';
 import { useState } from "react";
 
-export default function NavigationItem({ icon, sublist, children }) {
+export default function NavigationItem({ item, children }) {
     const [isSublistOpen, setIsSublistOpen] = useState(false);
-    const isSublist = sublist.length > 0;
+    const isSublist = item.sublist.length > 0;
 
     return (
         <li className='navigation-item'>
@@ -12,10 +12,10 @@ export default function NavigationItem({ icon, sublist, children }) {
                 className='navigation-item__link'
                 href='/#'
             >
-                {icon && (
+                {item.icon && (
                     <img
                         className='navigation-item__icon'
-                        src={`/images/${icon}`} alt={children}
+                        src={`/images/${item.icon}`} alt={children}
                     />
                 )}
                 {children}
@@ -27,7 +27,7 @@ export default function NavigationItem({ icon, sublist, children }) {
                 )}
             </a>
             {isSublist && (
-                <NavigationSublist sublist={sublist} isSublistOpen={isSublistOpen} />
+                <NavigationSublist sublist={item.sublist} sublistPosition={item.sublistPosition} isSublistOpen={isSublistOpen} />
             )}
         </li>
     )

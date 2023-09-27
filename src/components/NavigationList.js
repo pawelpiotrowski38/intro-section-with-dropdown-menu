@@ -26,7 +26,8 @@ const navigationItems = [
                 icon: 'icon-planning.svg',
                 sublist: [],
             }
-        ]
+        ],
+        sublistPosition: 'left'
     },
     {
         name: 'Company',
@@ -47,17 +48,20 @@ const navigationItems = [
                 icon: null,
                 sublist: [],
             }
-        ]
+        ],
+        sublistPosition: 'right'
     },
     {
         name: 'Careers',
         icon: null,
-        sublist: []
+        sublist: [],
+        sublistPosition: null
     },
     {
         name: 'About',
         icon: null,
-        sublist: []
+        sublist: [],
+        sublistPosition: null
     }
 ]
 
@@ -65,7 +69,7 @@ export default function NavigationList() {
     return (
         <ul className='navigation-list'>
             {navigationItems.map((item) => (
-                <NavigationItem key={item.name} icon={item.icon} sublist={item.sublist} >
+                <NavigationItem key={item.name} item={item} >
                     {item.name}
                 </NavigationItem>
             ))}

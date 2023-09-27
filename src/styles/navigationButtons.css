@@ -10,17 +10,32 @@
     margin-right: 0.25rem;
     margin-bottom: 1rem;
     font-size: 0.875rem;
+    color: var(--gray);
+    transition: all 0.25s ease-in-out;
     cursor: pointer;
 }
 
 .navigation-buttons__register {
     width: 100%;
     padding: 0.75rem 0;
-    border: 0.0625rem solid var(--black);
+    border: 0.125rem solid var(--gray);
     border-radius: 0.875rem;
+    color: var(--gray);
     font-size: 0.875rem;
     text-align: center;
+    transition: all 0.25s ease-in-out;
     cursor: pointer;
+}
+
+@media (hover: hover) {
+    .navigation-buttons__login:hover {
+        color: var(--black);
+    }
+
+    .navigation-buttons__register:hover {
+        color: var(--black);
+        border-color: var(--black);
+    }
 }
 
 @media screen and (min-width: 60em) {
@@ -38,7 +53,9 @@
     }
 
     .navigation-buttons__register {
+        padding-top: 0.6875rem;
         padding-bottom: 0.625rem;
         width: 6.5rem;
+        letter-spacing: 0.1px;
     }
 }

@@ -30,9 +30,12 @@
     margin-bottom: 3rem;
     background-color: var(--black);
     color: white;
+    border: 0.0625rem solid var(--black);
     border-radius: 0.9375rem;
     padding: 1rem 1.25rem 0.9375rem 1.5rem;
     font-size: 1rem;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
 }
 
 .hero-section__icons-container {
@@ -53,6 +56,14 @@
 }
 .hero-section__icon--mk {
     width: 3.75rem;
+}
+
+@media (hover: hover) {
+    .hero-section__button:hover {
+        color: var(--black);
+        background-color: var(--white);
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 38.75em) {
@@ -215,7 +226,7 @@
 
     .hero-section__button {
         margin-bottom: auto;
-        padding: 1.125rem 1.75rem 1rem 2rem;
+        padding: 1.0625rem 1.75rem 0.9375rem 1.875rem;
         font-size: 1.125rem;
         font-weight: 700;
         letter-spacing: -0.2px;
