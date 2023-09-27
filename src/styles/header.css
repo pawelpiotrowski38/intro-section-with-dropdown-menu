@@ -5,6 +5,7 @@
     align-items: flex-start;
     width: 100%;
     max-width: 1440px;
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
@@ -26,7 +27,7 @@
     opacity: 1;
     visibility: visible;
 }
-@media screen and (min-width: 62.5em) {
+@media screen and (min-width: 60em) {
     .header {
         justify-content: flex-start;
         align-items: center;

@@ -27,7 +27,7 @@
     transform: rotate(-180deg);
 }
 
-@media screen and (min-width: 62.5em) {
+@media screen and (min-width: 60em) {
     .navigation-item__arrow-icon {
         margin-top: 0;
         margin-left: 0.5rem;

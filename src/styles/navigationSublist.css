@@ -23,7 +23,7 @@
     margin-bottom: 1.25rem;
 }
 
-@media screen and (min-width: 62.5em) {
+@media screen and (min-width: 60em) {
     .navigation-sublist {
         position: absolute;
     }

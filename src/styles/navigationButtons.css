@@ -23,11 +23,11 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 62.5em) {
+@media screen and (min-width: 60em) {
     .navigation-buttons {
         flex-direction: row;
+        justify-content: flex-end;
         margin-top: 0;
-        margin-left: 40.9375rem;
     }
 
     .navigation-buttons__login {
@@ -39,5 +39,6 @@
 
     .navigation-buttons__register {
         padding-bottom: 0.625rem;
+        width: 6.5rem;
     }
 }
