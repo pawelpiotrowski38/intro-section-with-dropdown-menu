@@ -1,0 +1,135 @@
+.hero-section__image {
+    width: 100%;
+}
+
+.hero-section__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.4375rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero-section__title {
+    margin-bottom: 0.8125rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.hero-section__paragraph {
+    margin-bottom: 1.5rem;
+    /* text-align: center; */
+    color: var(--gray);
+    letter-spacing: 0.05px;
+    line-height: 1.625;
+}
+
+.hero-section__button {
+    margin-bottom: 3rem;
+    background-color: var(--black);
+    color: white;
+    border-radius: 0.9375rem;
+    padding: 1rem 1.25rem 0.9375rem 1.5rem;
+    font-size: 1rem;
+}
+
+.hero-section__icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-section__icon--db {
+    width: 5.0625rem;
+}
+.hero-section__icon--ap {
+    width: 3.3125rem;
+}
+.hero-section__icon--mt {
+    width: 4rem;
+}
+.hero-section__icon--mk {
+    width: 3.75rem;
+}
+
+@media screen and (min-width: 38.75em) {
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .hero-section__info-container {
+        align-items: flex-start;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .hero-section__title {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .hero-section__paragraph {
+        margin-bottom: 2rem;
+        font-size: 1.125rem;
+    }
+
+    .hero-section__button {
+        margin-bottom: 3.5rem;
+        padding: 1.125rem 1.5rem 1rem 1.75rem;
+    }
+}
+
+@media screen and (min-width: 46.875em) {
+    .hero-section {
+        padding: 0 3rem;
+    }
+
+    .hero-section__info-container {
+        padding: 2.5rem;
+    }
+
+    .hero-section__title {
+        margin-bottom: 2.5rem;
+        font-size: 2.75rem;
+    }
+
+    .hero-section__paragraph {
+        margin-bottom: 2.5rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .hero-section {
+        padding: 0 5rem;
+    }
+
+    .hero-section__title {
+        margin-bottom: 3rem;
+        font-size: 3rem;
+    }
+
+    .hero-section__paragraph {
+        margin-bottom: 3rem;
+    }
+
+    .hero-section__icons-container {
+        justify-content: flex-start;
+    }
+
+    .hero-section__icons-container > :not(:last-child) {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 70em) {
+    .hero-section {
+        padding: 0 8rem;
+    }
+}

@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    max-width: 1440px;
     padding: 0 1rem;
 }
 
@@ -13,7 +14,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    min-height: 900px;
+    min-height: 780px;
     background-color: rgba(0, 0, 0, 0.68);
     opacity: 0;
     visibility: hidden;
